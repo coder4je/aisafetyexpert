@@ -1,59 +1,40 @@
-# AI Safety Expert
+🚧 **AI Safety Expert**
+Our app makes it easy to find and understand construction safety regulations in the U.S. 🔍💡👷‍
 
-An AI programming assistant designed to assist developers in building safe and ethical AI systems.
+📦 **Dependencies**
+"@react-native-picker/picker": "2.4.8"
+"expo": "~48.0.9"
+"expo-status-bar": "~1.4.4"
+"react": "18.2.0"
+"react-native": "0.71.6"
 
-## Dependencies
+🔧 **Configuration**
+To get started with AI Safety Expert, simply clone this repository and navigate into the project directory:
 
-- "@react-native-picker/picker": "2.4.8"
-- "expo": "~48.0.9"
-- "expo-status-bar": "~1.4.4"
-- "react": "18.2.0"
-- "react-native": "0.71.6"
-
-## Configuration
-
-Clone this repository and navigate into the project directory:
-
-```
-git clone https://github.com/username/aisafetyexpert.git
+git clone https://github.com/coder4je/aisafetyexpert
 cd aisafetyexpert
-```
 
-Install the required dependencies using `npm`:
-
-```
+Then, install the required dependencies using npm:
 npm install
-```
 
-## Environment
+🌐 **Environment**
+Customize the behavior of AI Safety Expert by setting the following environment variables:
 
-The following environment variables can be set to customize the behavior of the AI Safety Expert:
+NODE_ENV - Set to "development" or "production" depending on the environment.
 
-- `NODE_ENV` - Set to "development" or "production" depending on the environment.
-
-## Testing
-
-Automated tests can be run using the `test` script:
-
-```
+🧪 **Testing**
+Run automated tests using the test script:
 npm test
-```
 
-## Deployment
+🚀 **Deployment**
+Deploy AI Safety Expert with ease using the following commands:
 
-To deploy the AI Safety Expert, run the following commands:
-
-```
 npm run build
 npm start
-```
+The application will be served at http://localhost:3000. 🚀🌎
 
-The application will be served at `http://localhost:3000`.
-
-## Monitoring
-
-The AI Safety Expert logs errors and other diagnostic information to the console. These logs can be viewed using the `npm run logs` command:
-
-```
+🕵️ **Monitoring**
+Stay on top of any errors or issues with AI Safety Expert by viewing logs using the npm run logs command:
 npm run logs
-```
+
+Thank you for choosing AI Safety Expert! We hope you find it helpful in ensuring a safe and secure work environment. 🙌
